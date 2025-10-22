@@ -1,0 +1,142 @@
+/* body{
+    background-image: url(./Assest/cat3.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right ;
+    background-position-y: bottom;
+    background-size: cover;
+    height: 100vh;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+main{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: 320px 320px 320px;
+}
+
+main>#one{
+    background-image: url(./Assest/man);
+
+}
+
+main>#two{
+    background-image: url(./Assest/building);
+    grid-column-start: span 2;
+
+}
+main>#three{
+    background-image: url(./Assest/mountain);
+    grid-column-start: span 2;
+
+}
+
+main>#four{
+    background-image: url(./Assest/fox);
+    
+
+}
+main>#five{
+    background-image: url(./Assest/room);
+
+}
+main>#six{
+    background-image: url(./Assest/girl);
+    grid-column-start: span 2;
+
+}
+
+main>#one>div{
+    background-color: #41a8dbd5;
+    height: 320px;
+    transition: 1s;
+}
+
+main>#two>div{
+    background-color: #8379b7e2;
+    height: 320px;
+    
+    transition: 1s;
+}
+main>#three>div{
+    background-color: #e5928ad6;
+    height: 320px;
+    transition: 1s;
+}
+main>#four>div{
+    background-color: #dcb18cc6;
+    height: 100%;
+    transition: 1s;
+}
+main>#five>div{
+    background-color: #8ca1d8c4;
+    height: 320px;
+    transition: 1s;
+}
+main>#six>div{
+    background-color: #7db095be;
+    height: 320px;
+    transition: 1s;
+}
+
+main>#one>div:hover{
+    background-color:transparent;
+    
+
+}
+main>#two>div:hover{
+    background-color:transparent;
+
+}
+
+main>#three>div:hover{
+    background-color:transparent;
+
+}
+main>#four>div:hover{
+    background-color:transparent;
+
+}
+
+main>#five>div:hover{
+    background-color:transparent;
+
+}
+main>#six>div:hover{
+    background-color:transparent;
+
+}
+
+
+
+main>article>div{
+    display: flex;
+    align-items: center;
+}
+main>article>div>div{ 
+    margin-left: 50px;
+}
+
+main>article>div>div>h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: white;
+    
+}
+
+main>article>div>div>hr{
+    height: 3px;
+    background-color: white;
+    margin-bottom: 15px;
+    border: none;
+}
+
+main>article>div>div>p{
+    text-transform: uppercase;
+    color: white;
+}
